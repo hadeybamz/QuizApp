@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/javaquiz" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/question1"
+                android:textSize="16sp" />
+
+
+            <RadioGroup
+                android:id="@+id/question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/question1_optionA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q1_optionA"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question1_optionB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q1_optionB"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question1_optionC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q1_optionC"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question1_optionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q1_optionD"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/question2"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/question2_optionA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q2_optionA"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question2_optionB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q2_optionB"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question2_optionC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q2_optionC"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question2_optionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q2_optionD"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/question3"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/question3_optionA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q3_optionA"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question3_optionB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q3_optionB"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question3_optionC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q3_optionC"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question3_optionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q3_optionD"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/question4"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/question4_optionA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q4_optionA"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question4_optionB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q4_optionB"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question4_optionC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q4_optionC"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question4_optionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q4_optionD"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/question5"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/question5_optionA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q5_optionA"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question5_optionB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q5_optionB"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question5_optionC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q5_optionC"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question5_optionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q5_optionD"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/question6"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/question6_optionA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q6_optionA"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question6_optionB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q6_optionB"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question6_optionC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q6_optionC"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question6_optionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q6_optionD"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:paddingBottom="4dp"
+                android:text="@string/question7"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Times New Roman"
+                android:hint="@string/q7_hint"
+                android:inputType="text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="Times New Roman"
+                android:hint="@string/q8_hint"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:paddingBottom="4dp"
+                android:text="@string/question8"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:paddingBottom="4dp"
+                android:text="@string/question9"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question9_optionA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/q9_optionA"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question9_optionB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/q9_optionB"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question9_optionC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/q9_optionB"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question9_optionD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/q9_optionC"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="Times New Roman"
+                android:text="@string/question10"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/question10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/question10_optionA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q10_optionA"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question10_optionB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q10_optionB"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question10_optionC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q10_optionC"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/question10_optionD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Times New Roman"
+                    android:text="@string/q10_optionD"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="submitButton"
+            android:text="@string/submit" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="resetButton"
+            android:text="Reset" />
+
+    </LinearLayout>
+</ScrollView>

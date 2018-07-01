@@ -1,0 +1,143 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Quiz App</string>
+
+    <!-- Question 1 -->
+    <string name="question1">1. What is stored in the object obj in following lines of code?</string>
+    <!-- Question 1 Option A -->
+    <string name="q1_optionA">Memory address of allocated memory of object</string>
+    <!-- Question 1 Option B-->
+    <string name="q1_optionB">NULL</string>
+    <!-- Question 1 Option C-->
+    <string name="q1_optionC">Any arbitrary pointer</string>
+    <!-- Question 1 Option D-->
+    <string name="q1_optionD">Garbage</string>
+
+
+    <!-- Question 2 -->
+    <string name="question2">2. Which of these keywords is used to make a class?</string>
+    <!-- Question 2 Option A -->
+    <string name="q2_optionA">class</string>
+    <!-- Question 2 Option B-->
+    <string name="q2_optionB">struct</string>
+    <!-- Question 2 Option C-->
+    <string name="q2_optionC">int</string>
+    <!-- Question 2 Option D-->
+    <string name="q2_optionD">none of the above</string>
+
+
+    <!-- Question 3 -->
+    <string name="question3">3. Which of the following is a valid declaration of an object of class Box?</string>
+    <!-- Question 3 Option A -->
+    <string name="q3_optionA">Box obj = new Box();</string>
+    <!-- Question 3 Option B-->
+    <string name="q3_optionB">Box obj = new Box;</string>
+    <!-- Question 3 Option C-->
+    <string name="q3_optionC">obj = new Box();</string>
+    <!-- Question 3 Option D-->
+    <string name="q3_optionD">new Box obj;</string>
+
+
+    <!-- Question 4 -->
+    <string name="question4">4. Which of these operators is used to allocate memory for an object?</string>
+    <!-- Question 4 Option A -->
+    <string name="q4_optionA">malloc</string>
+    <!-- Question 4 Option B-->
+    <string name="q4_optionB">alloc</string>
+    <!-- Question 4 Option C-->
+    <string name="q4_optionC">new</string>
+    <!-- Question 4 Option D-->
+    <string name="q4_optionD">give</string>
+
+
+    <!-- Question 5 -->
+    <string name="question5">5. Which of these statement is incorrect?</string>
+    <!-- Question 5 Option A -->
+    <string name="q5_optionA">Every class must contain a main() method</string>
+    <!-- Question 5 Option B-->
+    <string name="q5_optionB">Applets do not require a main() method at all</string>
+    <!-- Question 5 Option C-->
+    <string name="q5_optionC">There can be only one main() method in a program</string>
+    <!-- Question 5 Option D-->
+    <string name="q5_optionD">main() method must be made public</string>
+
+
+    <!-- Question 6 -->
+    <string name="question6">6. Which of the following statements is correct?</string>
+    <!-- Question 6 Option A -->
+    <string name="q6_optionA">Public method is accessible to all other classes in the hierarchy</string>
+    <!-- Question 6 Option B-->
+    <string name="q6_optionB">Public method is accessible only to subclasses of its parent class</string>
+    <!-- Question 6 Option C-->
+    <string name="q6_optionC">Public method can only be called by object of its class</string>
+    <!-- Question 6 Option D-->
+    <string name="q6_optionD">Public method can be accessed by calling object of the public class</string>
+
+    <!--Question 7-->
+    <string name="question7">7. What is the full meaning of JRE?</string>
+    <!--Question 7 EditText Hint-->
+    <string name="q7_hint">Each word should start with a capital letter</string>
+    <!--Question 7 Answer -->
+    <string name="q7_answer">Java Runtime Environment</string>
+
+    <!--Question 8-->
+    <string name="question8">
+        class box
+        \n{
+        \n    int width;
+        \n    int height;
+\n            int length;
+  \n      }
+    \n    class mainclass
+      \n  {
+        \n    public static void main(String args[])
+          \n  {
+            \n     box obj = new box();
+\n                 obj.width = 10;
+  \n               obj.height = 2;
+    \n             obj.length = 10;
+      \n           int y = obj.width * obj.height * obj.length;
+        \n         System.out.print(y);
+          \n  }
+    }
+    </string>
+    <!--Question 8 Answer-->
+    <string name="q8_answer">200</string>
+    <!--Question 8 hint-->
+    <string name="q8_hint">8. What is the output of this program below?</string>
+
+
+    <!--Question 9-->
+    <string name="question9">9. Which two are legal array declarations?</string>
+    <string name="q9_optionA">int [] myScores [];</string>
+    <string name="q9_optionB">int [6] myScores;</string>
+    <string name="q9_optionC">Dog myDogs [7];</string>
+    <string name="q9_optionD">Dog myDogs [];</string>
+
+
+    <!--Question 10-->
+    <string name="question10">10. You want subclasses in any package to have access to members of a superclass.
+        Which is the most restrictive access that accomplishes this objective?</string>
+    <string name="q10_optionA">public</string>
+    <string name="q10_optionB">private</string>
+    <string name="q10_optionC">protected</string>
+    <string name="q10_optionD">transient</string>
+
+
+
+    <!-- Status text for bad result -->
+    <string name="badResult1">Sorry !\nYou fail the quiz ! \nYour Score is</string>
+    <string name="badResult2">%. \nTry again. </string>
+
+    <!-- Status text1 for good result-->
+    <string name="goodResult1">Congratulations !!!\nYou passed the quiz ! \nYour Score is</string>
+    <string name="goodResult2">%. </string>
+
+    <!-- Warning message-->
+    <string name="warningMessage">Please Attempt All Question(s)</string>
+
+    <!--Submit Quiz-->
+    <string name="submit">submit quiz</string>
+
+</resources>
